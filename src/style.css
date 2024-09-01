@@ -19,12 +19,13 @@ h1 {
 }
 
 form {
+  display: flex;
+}
+.form-container {
   padding: 30px;
   background-color: bisque;
   border-radius: 20px;
-  display: flex;
 }
-
 .instructions {
   padding: 16px;
   border: 1px solid rgb(255, 255, 183);
@@ -32,7 +33,12 @@ form {
   border-radius: 50px;
   width: 80%;
 }
-
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 12px;
+  opacity: 0.6;
+}
 .submit-button {
   margin-left: 10px;
   background-color: rgb(255, 253, 206);
@@ -51,6 +57,10 @@ form {
   border-radius: 20px;
   margin-top: 40px;
   font-family: "Shadows Into Light", cursive;
+}
+
+.hidden{
+  display: none;
 }
 
 footer {
